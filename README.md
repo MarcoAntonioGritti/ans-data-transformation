@@ -46,7 +46,7 @@ ans-data-transformation-test/
 
 ### Pré-requisitos
 
-- **Python 3.8+** instalado.
+- **Python 3.13+** instalado.
 - Gerenciador de pacotes `poetry`.
 - Ambiente virtual configurado (recomendado).
 
