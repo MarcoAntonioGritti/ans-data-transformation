@@ -27,16 +27,6 @@ ans-data-transformation-test/
 │   ├── data_processing/       # Módulo para validação, transformação e limpeza de dados
 │   ├── storage/               # Módulo para salvar e compactar arquivos
 │
-├── tests/
-│   ├── test_main.py           # Testes para o fluxo principal
-│   ├── test_baixar_pdf.py     # Testes para o método de download de PDF
-│   ├── test_excluir_arquivo_zip.py
-│   ├── test_verificar_arquivo_pdf.py
-│   ├── test_extrair_dados_pdf.py
-│   ├── test_substituir_abreviacoes.py
-│   ├── test_salvar_csv.py
-│   ├── test_compactar_arquivo.py
-│
 └── README.md                  # Documentação do projeto
 ```
 
@@ -68,27 +58,8 @@ ans-data-transformation-test/
    ```bash
    poetry run python -m src.main
    ```
-
 ---
 
-## 🧪 Como Executar os Testes
-
-O projeto utiliza o framework `pytest` e `pytest-mock` para testes unitários e integração. Siga os passos abaixo para rodar os testes:
-
-1. **Instale o pytest e pytest-mock** (caso ainda não esteja instalado):
-   ```bash
-   poetry add pytest pytest-mock
-   ```
-
-2. **Execute todos os testes**:
-   ```bash
-   pytest tests/
-   ```
-
-3. **Execute um teste específico**:
-   ```bash
-   pytest tests/unit/test_cleaner
-   ```
 
 ---
 
