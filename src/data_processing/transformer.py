@@ -1,8 +1,7 @@
 import pandas as pd
-import pdfplumber   
 
-#Responsavel por transformar os dados extraidos
-def substituir_abreviacoes(df: pd.DataFrame) -> pd.DataFrame:
+# Responsavel por transformar os dados extraidos
+async def substituir_abreviacoes(df: pd.DataFrame) -> pd.DataFrame:
     try:
         legendas = {
             'OD': 'Seg. Odontológica',

@@ -1,6 +1,6 @@
 import os
 
-def excluir_arquivo_zip(nome_arquivo_zip):
+async def excluir_arquivo_zip(nome_arquivo_zip):
     try:
         if os.path.exists(nome_arquivo_zip):
             os.remove(nome_arquivo_zip)
