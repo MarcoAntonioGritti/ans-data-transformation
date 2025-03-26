@@ -66,7 +66,7 @@ ans-data-transformation-test/
    ```
 3. **Execute o script principal**:
    ```bash
-   python src/main.py
+   poetry run python -m src.main
    ```
 
 ---
@@ -122,15 +122,6 @@ if __name__ == "__main__":
     url_pdf = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf"
     asyncio.run(processar_pdf_para_zip(url_pdf, "Teste_Marco_Antonio.zip"))
 ```
-
----
-
-## 🛡️ Testes Unitários
-
-Os testes estão organizados por funcionalidade, com um arquivo de teste para cada método. Por exemplo:
-- `test_baixar_pdf.py`: Testa o método de download de PDF.
-- `test_extrair_dados_pdf.py`: Testa a extração de dados do PDF.
-- `test_main.py`: Testa o fluxo completo do processo.
 
 ---
 
