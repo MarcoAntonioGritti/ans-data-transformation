@@ -1,6 +1,3 @@
-# Projeto de Transformação de Dados - ANS
-
-Este projeto foi desenvolvido para realizar a extração, transformação e armazenamento de dados contidos em arquivos PDF disponibilizados pela ANS (Agência Nacional de Saúde Suplementar). O objetivo é processar os dados de forma automatizada, gerando um arquivo compactado (ZIP) contendo os dados extraídos no formato CSV.
 
 ---
 
@@ -122,31 +119,3 @@ if __name__ == "__main__":
     url_pdf = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf"
     asyncio.run(processar_pdf_para_zip(url_pdf, "Teste_Marco_Antonio.zip"))
 ```
-
----
-
-## 📖 Contribuição
-
-Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Faça commit das suas alterações:
-   ```bash
-   git commit -m "Minha nova feature"
-   ```
-4. Envie para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Abra um Pull Request.
-
----
-
-## 📞 Contato
-
-- **Autor**: Marco Antônio
-- **Email**: marco_gritti15@hotmail.com
-- **LinkedIn**: (https://www.linkedin.com/in/marco-antonio-gritti-pazza-091938232/)
